@@ -2,6 +2,7 @@ public class Plants {
     private String name;
     private double size;
 
+    // inkapsling
     public Plants(String name, double size) {
         this.name = name;
         this.size = size;

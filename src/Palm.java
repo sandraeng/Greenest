@@ -4,7 +4,6 @@ public class Palm extends Plants implements AmountOfFluid{
         super(name, size);
     }
 
-    //inkapsling
     @Override
     public String toString() {
         return "Palmen " + super.getName()
