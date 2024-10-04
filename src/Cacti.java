@@ -4,6 +4,7 @@ public class Cacti extends Plants implements AmountOfFluid {
         super(name, size);
     }
 
+    // polymorphism
     @Override
     public String toString() {
         return "Kaktusen " + super.getName() + " behöver: " + getAmountOfFluid()
