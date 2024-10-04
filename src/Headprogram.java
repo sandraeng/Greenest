@@ -5,14 +5,15 @@ public class Headprogram {
     public Headprogram() {
 
         boolean keepRunning = true;
+        // polymorphism
         Plants igge = new Cacti("Igge", 0.2);
         Plants laura = new Palm("Laura", 5);
         Plants meatloaf = new CarnivorousPlant("Meatloaf", 0.7);
         Plants olof = new Palm("Olof", 1);
 
-        String input = JOptionPane.showInputDialog("Vilken växt ska få vätska?");
 
         while (keepRunning) {
+        String input = JOptionPane.showInputDialog("Vilken växt ska få vätska?");
             switch (input.toLowerCase()) {
                 case "igge":
                     JOptionPane.showMessageDialog(null, igge.toString());
@@ -20,7 +21,7 @@ public class Headprogram {
 
                     case "laura":
                         JOptionPane.showMessageDialog(null,laura.toString());
-                       break;
+                        break;
 
                        case "meatloaf":
                            JOptionPane.showMessageDialog(null,meatloaf.toString());
@@ -32,6 +33,8 @@ public class Headprogram {
 
                                default:
                                    JOptionPane.showMessageDialog(null,"Felaktig inmatning");
+                                   continue;
+
             }
             keepRunning = false;
         }

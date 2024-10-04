@@ -12,8 +12,8 @@ public class Palm extends Plants implements AmountOfFluid{
     }
 
     @Override
-    public TypeOfFluid getTypeOfFluid() {
-        return TypeOfFluid.Kranvatten;
+    public String getTypeOfFluid() {
+        return TypeOfFluid.Kranvatten.toString().toLowerCase();
     }
 
     @Override

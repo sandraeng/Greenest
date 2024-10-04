@@ -11,8 +11,8 @@ public class Cacti extends Plants implements AmountOfFluid {
     }
 
     @Override
-    public TypeOfFluid getTypeOfFluid() {
-        return TypeOfFluid.Mineralvatten;
+    public String getTypeOfFluid() {
+        return TypeOfFluid.Mineralvatten.toString().toLowerCase();
     }
 
     @Override

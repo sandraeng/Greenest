@@ -1,4 +1,4 @@
 public interface AmountOfFluid {
-    public TypeOfFluid getTypeOfFluid();
+    public String getTypeOfFluid();
     public double getAmountOfFluid();
 }

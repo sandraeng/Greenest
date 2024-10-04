@@ -12,8 +12,8 @@ public class CarnivorousPlant extends Plants implements AmountOfFluid{
     }
 
     @Override
-    public TypeOfFluid getTypeOfFluid() {
-        return TypeOfFluid.Proteindricka;
+    public String getTypeOfFluid() {
+        return TypeOfFluid.Proteindricka.toString().toLowerCase();
     }
 
     @Override
