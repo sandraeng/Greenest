@@ -4,7 +4,8 @@ public class CarnivorousPlant extends Plants implements AmountOfFluid{
         super(name, size);
     }
 
-
+    //inkapsling
+    @Override
     public String toString() {
         return "Köttätande växten " + super.getName()
                 + " behöver: " + getAmountOfFluid() + " liter "
