@@ -4,7 +4,6 @@ public class CarnivorousPlant extends Plants implements AmountOfFluid{
         super(name, size);
     }
 
-    // polymorphism
     @Override
     public String toString() {
         return "Köttätande växten " + super.getName()

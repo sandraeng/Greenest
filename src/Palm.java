@@ -4,7 +4,6 @@ public class Palm extends Plants implements AmountOfFluid{
         super(name, size);
     }
 
-    // polymorphism
     @Override
     public String toString() {
         return "Palmen " + super.getName()
