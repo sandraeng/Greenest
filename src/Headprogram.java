@@ -29,7 +29,7 @@ public class Headprogram {
                            break;
 
                            default:
-                               JOptionPane.showMessageDialog(null,"Felaktig inmatning");
+                               JOptionPane.showMessageDialog(null,"Finns ingen växt med det namnet på hotellet!");
                                break;
 
             }
